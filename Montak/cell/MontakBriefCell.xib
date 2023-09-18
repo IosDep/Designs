@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MontakBriefCell" customModule="Montak" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="492" height="593"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="492" height="593"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5W-Qz-Blu">
+                        <rect key="frame" x="0.0" y="10" width="400" height="400"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="firstBrief" translatesAutoresizingMaskIntoConstraints="NO" id="jfy-lr-Vkh">
+                                <rect key="frame" x="50" y="10" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jfy-lr-Vkh" secondAttribute="height" multiplier="1:1" id="eHb-Gt-U8e"/>
+                                    <constraint firstAttribute="width" constant="300" id="rzO-1n-x78"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Emy-cT-hCR">
+                                <rect key="frame" x="10" y="320" width="380" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.043137254899999998" green="0.4549019608" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vHB-dh-9Gk">
+                                <rect key="frame" x="10" y="354" width="370" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="efD-xp-da9"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vHB-dh-9Gk" firstAttribute="top" secondItem="Emy-cT-hCR" secondAttribute="bottom" constant="10" id="Hhc-ce-6t1"/>
+                            <constraint firstAttribute="trailing" secondItem="vHB-dh-9Gk" secondAttribute="trailing" constant="20" id="KZV-pP-EkX"/>
+                            <constraint firstItem="Emy-cT-hCR" firstAttribute="top" secondItem="jfy-lr-Vkh" secondAttribute="bottom" constant="10" id="PUi-wl-CYF"/>
+                            <constraint firstItem="vHB-dh-9Gk" firstAttribute="leading" secondItem="m5W-Qz-Blu" secondAttribute="leading" constant="10" id="Yd8-XD-T2q"/>
+                            <constraint firstAttribute="trailing" secondItem="Emy-cT-hCR" secondAttribute="trailing" constant="10" id="Zv7-F6-Mih"/>
+                            <constraint firstAttribute="width" constant="400" id="dsg-c8-Gq7"/>
+                            <constraint firstAttribute="height" constant="400" id="eOA-Wf-WlF"/>
+                            <constraint firstItem="Emy-cT-hCR" firstAttribute="leading" secondItem="m5W-Qz-Blu" secondAttribute="leading" constant="10" id="nrV-MH-BZL"/>
+                            <constraint firstItem="jfy-lr-Vkh" firstAttribute="top" secondItem="m5W-Qz-Blu" secondAttribute="top" constant="10" id="qSI-JL-aKU"/>
+                            <constraint firstItem="jfy-lr-Vkh" firstAttribute="centerX" secondItem="m5W-Qz-Blu" secondAttribute="centerX" id="zSz-eV-AXw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="m5W-Qz-Blu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Tc3-Pt-kbF"/>
+                <constraint firstItem="m5W-Qz-Blu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gga-PF-P7q"/>
+            </constraints>
+            <size key="customSize" width="492" height="593"/>
+            <point key="canvasLocation" x="309.92366412213738" y="-135.56338028169014"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="firstBrief" width="358" height="358"/>
+    </resources>
+</document>

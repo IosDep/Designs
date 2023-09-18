@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5994138B5DBD59482176D98D /* Pods_Montak_MontakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DADC25CF2AC244D5CA2021 /* Pods_Montak_MontakUITests.framework */; };
+		783AC8297903EB6631532407 /* Pods_MontakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A61FBBA8362A6931F4FAAC /* Pods_MontakTests.framework */; };
+		8704A9DC2AAF41D80041C088 /* PaymmentTrackingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704A9DB2AAF41D80041C088 /* PaymmentTrackingVC.swift */; };
+		8704A9DE2AAF4A930041C088 /* CurrentOrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704A9DD2AAF4A930041C088 /* CurrentOrdersVC.swift */; };
+		8704A9E02AAF52620041C088 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704A9DF2AAF52620041C088 /* FavoriteVC.swift */; };
+		8704A9E22AAF55B90041C088 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704A9E12AAF55B90041C088 /* NotificationVC.swift */; };
+		8704A9E42AAF57D90041C088 /* SearchItemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704A9E32AAF57D90041C088 /* SearchItemsVC.swift */; };
+		8704A9E62AAF58C90041C088 /* OrderTrackingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704A9E52AAF58C90041C088 /* OrderTrackingVC.swift */; };
+		8704A9E82AAF59530041C088 /* OrderRateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704A9E72AAF59530041C088 /* OrderRateVC.swift */; };
+		8704A9EA2AAF59DD0041C088 /* EmployeeLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704A9E92AAF59DD0041C088 /* EmployeeLoginVC.swift */; };
+		871EA5812AA6278B00E232F8 /* customeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871EA5802AA6278B00E232F8 /* customeTabBar.swift */; };
+		873845EA2AAF361A0050DCD7 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873845E92AAF361A0050DCD7 /* CartVC.swift */; };
+		875D28032AA874C600824553 /* NewAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D28012AA874C600824553 /* NewAddressCell.swift */; };
+		875D28042AA874C600824553 /* NewAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D28022AA874C600824553 /* NewAddressCell.xib */; };
+		875D28072AA88A6000824553 /* AboutUsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D28052AA88A6000824553 /* AboutUsCell.swift */; };
+		875D28082AA88A6000824553 /* AboutUsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D28062AA88A6000824553 /* AboutUsCell.xib */; };
+		875D280B2AA8A45B00824553 /* SearchCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D28092AA8A45B00824553 /* SearchCategoriesCell.swift */; };
+		875D280C2AA8A45B00824553 /* SearchCategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D280A2AA8A45B00824553 /* SearchCategoriesCell.xib */; };
+		875D280F2AA8AABB00824553 /* ItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D280D2AA8AABB00824553 /* ItemsCell.swift */; };
+		875D28102AA8AABB00824553 /* ItemsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D280E2AA8AABB00824553 /* ItemsCell.xib */; };
+		87751D872AADC9BE00BDB347 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87751D862AADC9BE00BDB347 /* AboutUsVC.swift */; };
+		87751D892AADD64C00BDB347 /* AddNewAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87751D882AADD64C00BDB347 /* AddNewAddress.swift */; };
+		87751D8B2AADDAF700BDB347 /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87751D8A2AADDAF700BDB347 /* PrivacyPolicyVC.swift */; };
+		87751D8D2AADDDDB00BDB347 /* CallCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87751D8C2AADDDDB00BDB347 /* CallCenterVC.swift */; };
+		87751D8F2AADDEA000BDB347 /* TermsANdConditionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87751D8E2AADDEA000BDB347 /* TermsANdConditionsVC.swift */; };
+		87751D912AADDF8C00BDB347 /* SearchCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87751D902AADDF8C00BDB347 /* SearchCategoryVC.swift */; };
+		87751D932AADE02900BDB347 /* AllCategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87751D922AADE02900BDB347 /* AllCategoriesVC.swift */; };
+		87751D952AADF39900BDB347 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87751D942AADF39900BDB347 /* ItemDetailsVC.swift */; };
+		87825B7B2AADA40500DF5C57 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B7A2AADA40500DF5C57 /* HomeVC.swift */; };
+		87825B7D2AADBC2800DF5C57 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B7C2AADBC2800DF5C57 /* MenuVC.swift */; };
+		87825B7F2AADC37F00DF5C57 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B7E2AADC37F00DF5C57 /* MyProfileVC.swift */; };
+		87825B812AADC3DD00DF5C57 /* ChangePhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B802AADC3DD00DF5C57 /* ChangePhoneNumber.swift */; };
+		87825B832AADC5E500DF5C57 /* PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B822AADC5E500DF5C57 /* PersonalInfoVC.swift */; };
+		87825B852AADC60B00DF5C57 /* AddressInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B842AADC60B00DF5C57 /* AddressInfoVC.swift */; };
+		87825B872AADC62F00DF5C57 /* SectorInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B862AADC62F00DF5C57 /* SectorInfoVC.swift */; };
 		87A624832AA48B75003BE2AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624822AA48B75003BE2AF /* AppDelegate.swift */; };
 		87A624852AA48B75003BE2AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624842AA48B75003BE2AF /* SceneDelegate.swift */; };
 		87A624872AA48B75003BE2AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624862AA48B75003BE2AF /* ViewController.swift */; };
@@ -16,6 +51,27 @@
 		87A6249A2AA48B77003BE2AF /* MontakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624992AA48B77003BE2AF /* MontakTests.swift */; };
 		87A624A42AA48B77003BE2AF /* MontakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624A32AA48B77003BE2AF /* MontakUITests.swift */; };
 		87A624A62AA48B77003BE2AF /* MontakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624A52AA48B77003BE2AF /* MontakUITestsLaunchTests.swift */; };
+		87A624B42AA4A696003BE2AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624B32AA4A696003BE2AF /* Extensions.swift */; };
+		87C635E92AB087E00077E728 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C635E82AB087E00077E728 /* OTPVC.swift */; };
+		87D630EB2AA9B29F00F5F19E /* OfferItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D630E92AA9B29F00F5F19E /* OfferItemCell.swift */; };
+		87D630EC2AA9B29F00F5F19E /* OfferItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D630EA2AA9B29F00F5F19E /* OfferItemCell.xib */; };
+		87D630EF2AA9B4CB00F5F19E /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D630ED2AA9B4CB00F5F19E /* CartItemCell.swift */; };
+		87D630F02AA9B4CB00F5F19E /* CartItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D630EE2AA9B4CB00F5F19E /* CartItemCell.xib */; };
+		87D630F32AA9C9DF00F5F19E /* CurrentOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D630F12AA9C9DF00F5F19E /* CurrentOrdersCell.swift */; };
+		87D630F42AA9C9DF00F5F19E /* CurrentOrdersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D630F22AA9C9DF00F5F19E /* CurrentOrdersCell.xib */; };
+		87D630F72AA9CEFB00F5F19E /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D630F52AA9CEFB00F5F19E /* NotificationCell.swift */; };
+		87D630F82AA9CEFB00F5F19E /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D630F62AA9CEFB00F5F19E /* NotificationCell.xib */; };
+		87DEB4762AA72E2000B54457 /* firstHomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DEB4742AA72E2000B54457 /* firstHomePageCell.swift */; };
+		87DEB4772AA72E2000B54457 /* firstHomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87DEB4752AA72E2000B54457 /* firstHomePageCell.xib */; };
+		87DEB47B2AA72E3A00B54457 /* secondHomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87DEB4792AA72E3A00B54457 /* secondHomePageCell.xib */; };
+		87DEB47F2AA72E9100B54457 /* secondHomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DEB47E2AA72E9100B54457 /* secondHomePageCell.swift */; };
+		87DEB4822AA72EBD00B54457 /* thirdHomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DEB4802AA72EBD00B54457 /* thirdHomePageCell.swift */; };
+		87DEB4832AA72EBD00B54457 /* thirdHomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87DEB4812AA72EBD00B54457 /* thirdHomePageCell.xib */; };
+		87E9349A2AA9F9DE00BCBEC5 /* ChangeLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E934992AA9F9DE00BCBEC5 /* ChangeLanguageVC.swift */; };
+		87E9349C2AA9FE0D00BCBEC5 /* MontakBriefVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9349B2AA9FE0D00BCBEC5 /* MontakBriefVC.swift */; };
+		87E9349F2AA9FE5A00BCBEC5 /* MontakBriefCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9349D2AA9FE5A00BCBEC5 /* MontakBriefCell.swift */; };
+		87E934A02AA9FE5A00BCBEC5 /* MontakBriefCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E9349E2AA9FE5A00BCBEC5 /* MontakBriefCell.xib */; };
+		F533227B0B480389AAAF37B7 /* Pods_Montak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A372041A9FBD7268176AA435 /* Pods_Montak.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +92,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E8CE5D39F998F8195CFEAD3 /* Pods-Montak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Montak.release.xcconfig"; path = "Target Support Files/Pods-Montak/Pods-Montak.release.xcconfig"; sourceTree = "<group>"; };
+		42588AB201F00E6B4AEB0FB5 /* Pods-Montak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Montak.debug.xcconfig"; path = "Target Support Files/Pods-Montak/Pods-Montak.debug.xcconfig"; sourceTree = "<group>"; };
+		4C94891362079D9907EDD7BE /* Pods-MontakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MontakTests.release.xcconfig"; path = "Target Support Files/Pods-MontakTests/Pods-MontakTests.release.xcconfig"; sourceTree = "<group>"; };
+		55A61FBBA8362A6931F4FAAC /* Pods_MontakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MontakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD90C2A1FD942DF7611E908 /* Pods-Montak-MontakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Montak-MontakUITests.debug.xcconfig"; path = "Target Support Files/Pods-Montak-MontakUITests/Pods-Montak-MontakUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		821B27B7973CB11074D84457 /* Pods-Montak-MontakUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Montak-MontakUITests.release.xcconfig"; path = "Target Support Files/Pods-Montak-MontakUITests/Pods-Montak-MontakUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84FDDEDC74F747E55A7610C4 /* Pods-MontakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MontakTests.debug.xcconfig"; path = "Target Support Files/Pods-MontakTests/Pods-MontakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8704A9DB2AAF41D80041C088 /* PaymmentTrackingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymmentTrackingVC.swift; sourceTree = "<group>"; };
+		8704A9DD2AAF4A930041C088 /* CurrentOrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentOrdersVC.swift; sourceTree = "<group>"; };
+		8704A9DF2AAF52620041C088 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		8704A9E12AAF55B90041C088 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		8704A9E32AAF57D90041C088 /* SearchItemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemsVC.swift; sourceTree = "<group>"; };
+		8704A9E52AAF58C90041C088 /* OrderTrackingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTrackingVC.swift; sourceTree = "<group>"; };
+		8704A9E72AAF59530041C088 /* OrderRateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRateVC.swift; sourceTree = "<group>"; };
+		8704A9E92AAF59DD0041C088 /* EmployeeLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLoginVC.swift; sourceTree = "<group>"; };
+		871EA5802AA6278B00E232F8 /* customeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customeTabBar.swift; sourceTree = "<group>"; };
+		873845E92AAF361A0050DCD7 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		875D28012AA874C600824553 /* NewAddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddressCell.swift; sourceTree = "<group>"; };
+		875D28022AA874C600824553 /* NewAddressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewAddressCell.xib; sourceTree = "<group>"; };
+		875D28052AA88A6000824553 /* AboutUsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsCell.swift; sourceTree = "<group>"; };
+		875D28062AA88A6000824553 /* AboutUsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUsCell.xib; sourceTree = "<group>"; };
+		875D28092AA8A45B00824553 /* SearchCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategoriesCell.swift; sourceTree = "<group>"; };
+		875D280A2AA8A45B00824553 /* SearchCategoriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCategoriesCell.xib; sourceTree = "<group>"; };
+		875D280D2AA8AABB00824553 /* ItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCell.swift; sourceTree = "<group>"; };
+		875D280E2AA8AABB00824553 /* ItemsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsCell.xib; sourceTree = "<group>"; };
+		87751D862AADC9BE00BDB347 /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		87751D882AADD64C00BDB347 /* AddNewAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAddress.swift; sourceTree = "<group>"; };
+		87751D8A2AADDAF700BDB347 /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		87751D8C2AADDDDB00BDB347 /* CallCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCenterVC.swift; sourceTree = "<group>"; };
+		87751D8E2AADDEA000BDB347 /* TermsANdConditionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsANdConditionsVC.swift; sourceTree = "<group>"; };
+		87751D902AADDF8C00BDB347 /* SearchCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategoryVC.swift; sourceTree = "<group>"; };
+		87751D922AADE02900BDB347 /* AllCategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesVC.swift; sourceTree = "<group>"; };
+		87751D942AADF39900BDB347 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		87825B7A2AADA40500DF5C57 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		87825B7C2AADBC2800DF5C57 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		87825B7E2AADC37F00DF5C57 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		87825B802AADC3DD00DF5C57 /* ChangePhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePhoneNumber.swift; sourceTree = "<group>"; };
+		87825B822AADC5E500DF5C57 /* PersonalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoVC.swift; sourceTree = "<group>"; };
+		87825B842AADC60B00DF5C57 /* AddressInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressInfoVC.swift; sourceTree = "<group>"; };
+		87825B862AADC62F00DF5C57 /* SectorInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorInfoVC.swift; sourceTree = "<group>"; };
 		87A6247F2AA48B75003BE2AF /* Montak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Montak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A624822AA48B75003BE2AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87A624842AA48B75003BE2AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +145,28 @@
 		87A6249F2AA48B77003BE2AF /* MontakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MontakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A624A32AA48B77003BE2AF /* MontakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontakUITests.swift; sourceTree = "<group>"; };
 		87A624A52AA48B77003BE2AF /* MontakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87A624B32AA4A696003BE2AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		87C635E82AB087E00077E728 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
+		87D630E92AA9B29F00F5F19E /* OfferItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferItemCell.swift; sourceTree = "<group>"; };
+		87D630EA2AA9B29F00F5F19E /* OfferItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferItemCell.xib; sourceTree = "<group>"; };
+		87D630ED2AA9B4CB00F5F19E /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
+		87D630EE2AA9B4CB00F5F19E /* CartItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartItemCell.xib; sourceTree = "<group>"; };
+		87D630F12AA9C9DF00F5F19E /* CurrentOrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentOrdersCell.swift; sourceTree = "<group>"; };
+		87D630F22AA9C9DF00F5F19E /* CurrentOrdersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentOrdersCell.xib; sourceTree = "<group>"; };
+		87D630F52AA9CEFB00F5F19E /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		87D630F62AA9CEFB00F5F19E /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		87DEB4742AA72E2000B54457 /* firstHomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstHomePageCell.swift; sourceTree = "<group>"; };
+		87DEB4752AA72E2000B54457 /* firstHomePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = firstHomePageCell.xib; sourceTree = "<group>"; };
+		87DEB4792AA72E3A00B54457 /* secondHomePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondHomePageCell.xib; sourceTree = "<group>"; };
+		87DEB47E2AA72E9100B54457 /* secondHomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondHomePageCell.swift; sourceTree = "<group>"; };
+		87DEB4802AA72EBD00B54457 /* thirdHomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdHomePageCell.swift; sourceTree = "<group>"; };
+		87DEB4812AA72EBD00B54457 /* thirdHomePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = thirdHomePageCell.xib; sourceTree = "<group>"; };
+		87E934992AA9F9DE00BCBEC5 /* ChangeLanguageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLanguageVC.swift; sourceTree = "<group>"; };
+		87E9349B2AA9FE0D00BCBEC5 /* MontakBriefVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontakBriefVC.swift; sourceTree = "<group>"; };
+		87E9349D2AA9FE5A00BCBEC5 /* MontakBriefCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontakBriefCell.swift; sourceTree = "<group>"; };
+		87E9349E2AA9FE5A00BCBEC5 /* MontakBriefCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MontakBriefCell.xib; sourceTree = "<group>"; };
+		A372041A9FBD7268176AA435 /* Pods_Montak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Montak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DADC25CF2AC244D5CA2021 /* Pods_Montak_MontakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Montak_MontakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F533227B0B480389AAAF37B7 /* Pods_Montak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783AC8297903EB6631532407 /* Pods_MontakTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +190,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5994138B5DBD59482176D98D /* Pods_Montak_MontakUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63A82264F9896DFF2E861DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A372041A9FBD7268176AA435 /* Pods_Montak.framework */,
+				E2DADC25CF2AC244D5CA2021 /* Pods_Montak_MontakUITests.framework */,
+				55A61FBBA8362A6931F4FAAC /* Pods_MontakTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87A624762AA48B75003BE2AF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +214,8 @@
 				87A624982AA48B77003BE2AF /* MontakTests */,
 				87A624A22AA48B77003BE2AF /* MontakUITests */,
 				87A624802AA48B75003BE2AF /* Products */,
+				B9A7350D04D1BDA7642933EB /* Pods */,
+				63A82264F9896DFF2E861DC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +232,9 @@
 		87A624812AA48B75003BE2AF /* Montak */ = {
 			isa = PBXGroup;
 			children = (
+				87E934982AA9F9B400BCBEC5 /* VC */,
+				87DEB4732AA72DEE00B54457 /* cell */,
+				87A624B22AA4A651003BE2AF /* Helper */,
 				87A624822AA48B75003BE2AF /* AppDelegate.swift */,
 				87A624842AA48B75003BE2AF /* SceneDelegate.swift */,
 				87A624862AA48B75003BE2AF /* ViewController.swift */,
@@ -127,6 +263,93 @@
 			path = MontakUITests;
 			sourceTree = "<group>";
 		};
+		87A624B22AA4A651003BE2AF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				87A624B32AA4A696003BE2AF /* Extensions.swift */,
+				871EA5802AA6278B00E232F8 /* customeTabBar.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		87DEB4732AA72DEE00B54457 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				87DEB4742AA72E2000B54457 /* firstHomePageCell.swift */,
+				87DEB4752AA72E2000B54457 /* firstHomePageCell.xib */,
+				87DEB4792AA72E3A00B54457 /* secondHomePageCell.xib */,
+				87DEB47E2AA72E9100B54457 /* secondHomePageCell.swift */,
+				87DEB4802AA72EBD00B54457 /* thirdHomePageCell.swift */,
+				87DEB4812AA72EBD00B54457 /* thirdHomePageCell.xib */,
+				875D28012AA874C600824553 /* NewAddressCell.swift */,
+				875D28022AA874C600824553 /* NewAddressCell.xib */,
+				875D28052AA88A6000824553 /* AboutUsCell.swift */,
+				875D28062AA88A6000824553 /* AboutUsCell.xib */,
+				875D28092AA8A45B00824553 /* SearchCategoriesCell.swift */,
+				875D280A2AA8A45B00824553 /* SearchCategoriesCell.xib */,
+				875D280D2AA8AABB00824553 /* ItemsCell.swift */,
+				875D280E2AA8AABB00824553 /* ItemsCell.xib */,
+				87D630E92AA9B29F00F5F19E /* OfferItemCell.swift */,
+				87D630EA2AA9B29F00F5F19E /* OfferItemCell.xib */,
+				87D630ED2AA9B4CB00F5F19E /* CartItemCell.swift */,
+				87D630EE2AA9B4CB00F5F19E /* CartItemCell.xib */,
+				87D630F12AA9C9DF00F5F19E /* CurrentOrdersCell.swift */,
+				87D630F22AA9C9DF00F5F19E /* CurrentOrdersCell.xib */,
+				87D630F52AA9CEFB00F5F19E /* NotificationCell.swift */,
+				87D630F62AA9CEFB00F5F19E /* NotificationCell.xib */,
+				87E9349D2AA9FE5A00BCBEC5 /* MontakBriefCell.swift */,
+				87E9349E2AA9FE5A00BCBEC5 /* MontakBriefCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		87E934982AA9F9B400BCBEC5 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				87E934992AA9F9DE00BCBEC5 /* ChangeLanguageVC.swift */,
+				87E9349B2AA9FE0D00BCBEC5 /* MontakBriefVC.swift */,
+				87825B7A2AADA40500DF5C57 /* HomeVC.swift */,
+				87825B7C2AADBC2800DF5C57 /* MenuVC.swift */,
+				87825B7E2AADC37F00DF5C57 /* MyProfileVC.swift */,
+				87825B802AADC3DD00DF5C57 /* ChangePhoneNumber.swift */,
+				87825B822AADC5E500DF5C57 /* PersonalInfoVC.swift */,
+				87825B842AADC60B00DF5C57 /* AddressInfoVC.swift */,
+				87825B862AADC62F00DF5C57 /* SectorInfoVC.swift */,
+				87751D862AADC9BE00BDB347 /* AboutUsVC.swift */,
+				87751D882AADD64C00BDB347 /* AddNewAddress.swift */,
+				87751D8A2AADDAF700BDB347 /* PrivacyPolicyVC.swift */,
+				87751D8C2AADDDDB00BDB347 /* CallCenterVC.swift */,
+				87751D8E2AADDEA000BDB347 /* TermsANdConditionsVC.swift */,
+				87751D922AADE02900BDB347 /* AllCategoriesVC.swift */,
+				87751D902AADDF8C00BDB347 /* SearchCategoryVC.swift */,
+				87751D942AADF39900BDB347 /* ItemDetailsVC.swift */,
+				873845E92AAF361A0050DCD7 /* CartVC.swift */,
+				8704A9DB2AAF41D80041C088 /* PaymmentTrackingVC.swift */,
+				8704A9DD2AAF4A930041C088 /* CurrentOrdersVC.swift */,
+				8704A9DF2AAF52620041C088 /* FavoriteVC.swift */,
+				8704A9E12AAF55B90041C088 /* NotificationVC.swift */,
+				8704A9E32AAF57D90041C088 /* SearchItemsVC.swift */,
+				8704A9E52AAF58C90041C088 /* OrderTrackingVC.swift */,
+				8704A9E72AAF59530041C088 /* OrderRateVC.swift */,
+				8704A9E92AAF59DD0041C088 /* EmployeeLoginVC.swift */,
+				87C635E82AB087E00077E728 /* OTPVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B9A7350D04D1BDA7642933EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42588AB201F00E6B4AEB0FB5 /* Pods-Montak.debug.xcconfig */,
+				3E8CE5D39F998F8195CFEAD3 /* Pods-Montak.release.xcconfig */,
+				7FD90C2A1FD942DF7611E908 /* Pods-Montak-MontakUITests.debug.xcconfig */,
+				821B27B7973CB11074D84457 /* Pods-Montak-MontakUITests.release.xcconfig */,
+				84FDDEDC74F747E55A7610C4 /* Pods-MontakTests.debug.xcconfig */,
+				4C94891362079D9907EDD7BE /* Pods-MontakTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87A624A92AA48B77003BE2AF /* Build configuration list for PBXNativeTarget "Montak" */;
 			buildPhases = (
+				4376B498B9C637386CED1E7F /* [CP] Check Pods Manifest.lock */,
 				87A6247B2AA48B75003BE2AF /* Sources */,
 				87A6247C2AA48B75003BE2AF /* Frameworks */,
 				87A6247D2AA48B75003BE2AF /* Resources */,
+				27EFEBCD68E45A1014E802E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +376,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87A624AC2AA48B77003BE2AF /* Build configuration list for PBXNativeTarget "MontakTests" */;
 			buildPhases = (
+				85FB97C5FA74965FE126F5D6 /* [CP] Check Pods Manifest.lock */,
 				87A624912AA48B77003BE2AF /* Sources */,
 				87A624922AA48B77003BE2AF /* Frameworks */,
 				87A624932AA48B77003BE2AF /* Resources */,
@@ -169,9 +395,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87A624AF2AA48B77003BE2AF /* Build configuration list for PBXNativeTarget "MontakUITests" */;
 			buildPhases = (
+				C150B95DDA6AC02E24535A69 /* [CP] Check Pods Manifest.lock */,
 				87A6249B2AA48B77003BE2AF /* Sources */,
 				87A6249C2AA48B77003BE2AF /* Frameworks */,
 				87A6249D2AA48B77003BE2AF /* Resources */,
+				301E2EB0F9C5D8E272183647 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +459,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DEB4772AA72E2000B54457 /* firstHomePageCell.xib in Resources */,
 				87A6248F2AA48B77003BE2AF /* LaunchScreen.storyboard in Resources */,
 				87A6248C2AA48B77003BE2AF /* Assets.xcassets in Resources */,
+				875D280C2AA8A45B00824553 /* SearchCategoriesCell.xib in Resources */,
+				87D630F82AA9CEFB00F5F19E /* NotificationCell.xib in Resources */,
+				875D28102AA8AABB00824553 /* ItemsCell.xib in Resources */,
+				875D28082AA88A6000824553 /* AboutUsCell.xib in Resources */,
+				87D630F42AA9C9DF00F5F19E /* CurrentOrdersCell.xib in Resources */,
+				87D630EC2AA9B29F00F5F19E /* OfferItemCell.xib in Resources */,
 				87A6248A2AA48B75003BE2AF /* Main.storyboard in Resources */,
+				875D28042AA874C600824553 /* NewAddressCell.xib in Resources */,
+				87DEB47B2AA72E3A00B54457 /* secondHomePageCell.xib in Resources */,
+				87D630F02AA9B4CB00F5F19E /* CartItemCell.xib in Resources */,
+				87DEB4832AA72EBD00B54457 /* thirdHomePageCell.xib in Resources */,
+				87E934A02AA9FE5A00BCBEC5 /* MontakBriefCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +493,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27EFEBCD68E45A1014E802E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Montak/Pods-Montak-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Montak/Pods-Montak-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Montak/Pods-Montak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		301E2EB0F9C5D8E272183647 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Montak-MontakUITests/Pods-Montak-MontakUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Montak-MontakUITests/Pods-Montak-MontakUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Montak-MontakUITests/Pods-Montak-MontakUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4376B498B9C637386CED1E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Montak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FB97C5FA74965FE126F5D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MontakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C150B95DDA6AC02E24535A69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Montak-MontakUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87A6247B2AA48B75003BE2AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87751D8F2AADDEA000BDB347 /* TermsANdConditionsVC.swift in Sources */,
+				87825B872AADC62F00DF5C57 /* SectorInfoVC.swift in Sources */,
+				87825B832AADC5E500DF5C57 /* PersonalInfoVC.swift in Sources */,
 				87A624872AA48B75003BE2AF /* ViewController.swift in Sources */,
+				87825B7B2AADA40500DF5C57 /* HomeVC.swift in Sources */,
+				875D280B2AA8A45B00824553 /* SearchCategoriesCell.swift in Sources */,
 				87A624832AA48B75003BE2AF /* AppDelegate.swift in Sources */,
+				87DEB4762AA72E2000B54457 /* firstHomePageCell.swift in Sources */,
+				87D630F32AA9C9DF00F5F19E /* CurrentOrdersCell.swift in Sources */,
+				87825B812AADC3DD00DF5C57 /* ChangePhoneNumber.swift in Sources */,
+				87D630EF2AA9B4CB00F5F19E /* CartItemCell.swift in Sources */,
+				87751D8B2AADDAF700BDB347 /* PrivacyPolicyVC.swift in Sources */,
+				87DEB4822AA72EBD00B54457 /* thirdHomePageCell.swift in Sources */,
+				87E9349F2AA9FE5A00BCBEC5 /* MontakBriefCell.swift in Sources */,
+				87C635E92AB087E00077E728 /* OTPVC.swift in Sources */,
+				87751D912AADDF8C00BDB347 /* SearchCategoryVC.swift in Sources */,
+				8704A9E42AAF57D90041C088 /* SearchItemsVC.swift in Sources */,
+				8704A9E62AAF58C90041C088 /* OrderTrackingVC.swift in Sources */,
+				871EA5812AA6278B00E232F8 /* customeTabBar.swift in Sources */,
+				8704A9E02AAF52620041C088 /* FavoriteVC.swift in Sources */,
+				87825B7F2AADC37F00DF5C57 /* MyProfileVC.swift in Sources */,
+				87D630F72AA9CEFB00F5F19E /* NotificationCell.swift in Sources */,
+				87751D892AADD64C00BDB347 /* AddNewAddress.swift in Sources */,
+				87E9349C2AA9FE0D00BCBEC5 /* MontakBriefVC.swift in Sources */,
+				87D630EB2AA9B29F00F5F19E /* OfferItemCell.swift in Sources */,
+				87751D8D2AADDDDB00BDB347 /* CallCenterVC.swift in Sources */,
+				87751D932AADE02900BDB347 /* AllCategoriesVC.swift in Sources */,
+				8704A9EA2AAF59DD0041C088 /* EmployeeLoginVC.swift in Sources */,
+				873845EA2AAF361A0050DCD7 /* CartVC.swift in Sources */,
+				8704A9DE2AAF4A930041C088 /* CurrentOrdersVC.swift in Sources */,
+				87825B852AADC60B00DF5C57 /* AddressInfoVC.swift in Sources */,
+				87751D952AADF39900BDB347 /* ItemDetailsVC.swift in Sources */,
+				8704A9DC2AAF41D80041C088 /* PaymmentTrackingVC.swift in Sources */,
+				875D28032AA874C600824553 /* NewAddressCell.swift in Sources */,
+				87DEB47F2AA72E9100B54457 /* secondHomePageCell.swift in Sources */,
+				875D280F2AA8AABB00824553 /* ItemsCell.swift in Sources */,
+				875D28072AA88A6000824553 /* AboutUsCell.swift in Sources */,
+				8704A9E82AAF59530041C088 /* OrderRateVC.swift in Sources */,
+				87751D872AADC9BE00BDB347 /* AboutUsVC.swift in Sources */,
+				87825B7D2AADBC2800DF5C57 /* MenuVC.swift in Sources */,
+				87E9349A2AA9F9DE00BCBEC5 /* ChangeLanguageVC.swift in Sources */,
 				87A624852AA48B75003BE2AF /* SceneDelegate.swift in Sources */,
+				8704A9E22AAF55B90041C088 /* NotificationVC.swift in Sources */,
+				87A624B42AA4A696003BE2AF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +816,7 @@
 		};
 		87A624AA2AA48B77003BE2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42588AB201F00E6B4AEB0FB5 /* Pods-Montak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +845,7 @@
 		};
 		87A624AB2AA48B77003BE2AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8CE5D39F998F8195CFEAD3 /* Pods-Montak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +874,7 @@
 		};
 		87A624AD2AA48B77003BE2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FDDEDC74F747E55A7610C4 /* Pods-MontakTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +895,7 @@
 		};
 		87A624AE2AA48B77003BE2AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C94891362079D9907EDD7BE /* Pods-MontakTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +916,7 @@
 		};
 		87A624B02AA48B77003BE2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD90C2A1FD942DF7611E908 /* Pods-Montak-MontakUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +935,7 @@
 		};
 		87A624B12AA48B77003BE2AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821B27B7973CB11074D84457 /* Pods-Montak-MontakUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
