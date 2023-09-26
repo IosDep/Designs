@@ -127,7 +127,7 @@ class MenuVC: UIViewController {
         
         else if sender.tag == Actions.changeLang.rawValue {
             
-            let vc = storyBoard.instantiateViewController(withIdentifier: "ChangeLanguageVC") as! ChangeLanguageVC
+            let vc = storyBoard.instantiateViewController(withIdentifier: "ChangeLang") as! ChangeLang
             
             self.modalPresentationStyle = .overFullScreen
             self.present(vc, animated: true)

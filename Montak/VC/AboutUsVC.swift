@@ -34,11 +34,11 @@ class AboutUsVC: UIViewController , UITableViewDelegate , UITableViewDataSource 
         
         bodyTexts =  [
             
-        "The Montak application seeks to become the main destination for all customers in Jordan to secure their reserves of food supplies of all kinds at the lowest prices with ease and flexibility and with the highest levels of quality and satisfaction." ,
+            "The Montak application seeks to become the main destination for all customers in Jordan to secure their reserves of food supplies of all kinds at the lowest prices with ease and flexibility and with the highest levels of quality and satisfaction.".localized() ,
         
-        "We are here, through our application, to meet customers’ needs for basic food supplies that are characterized by their high quality and competitive price in order to reach them with the least effort and most quickly possible" ,
+        "We are here, through our application, to meet customers’ needs for basic food supplies that are characterized by their high quality and competitive price in order to reach them with the least effort and most quickly possible".localized() ,
         
-        "Quality - Excellence - Competition" ]
+        "Quality - Excellence - Competition".localized() ]
         
         tableView.delegate = self
         tableView.dataSource = self

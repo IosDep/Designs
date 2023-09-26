@@ -19,6 +19,10 @@
 		8704A9EA2AAF59DD0041C088 /* EmployeeLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704A9E92AAF59DD0041C088 /* EmployeeLoginVC.swift */; };
 		871EA5812AA6278B00E232F8 /* customeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871EA5802AA6278B00E232F8 /* customeTabBar.swift */; };
 		873845EA2AAF361A0050DCD7 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873845E92AAF361A0050DCD7 /* CartVC.swift */; };
+		873F771D2AC06D1B008FF652 /* CustomeTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873F771C2AC06D1B008FF652 /* CustomeTabBarVC.swift */; };
+		873F771F2AC06FC8008FF652 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873F771E2AC06FC8008FF652 /* OrdersVC.swift */; };
+		873F77212AC07D5C008FF652 /* ChangeLang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873F77202AC07D5C008FF652 /* ChangeLang.swift */; };
+		873F77272AC0B538008FF652 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 873F77292AC0B538008FF652 /* Localizable.strings */; };
 		875D28032AA874C600824553 /* NewAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D28012AA874C600824553 /* NewAddressCell.swift */; };
 		875D28042AA874C600824553 /* NewAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D28022AA874C600824553 /* NewAddressCell.xib */; };
 		875D28072AA88A6000824553 /* AboutUsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D28052AA88A6000824553 /* AboutUsCell.swift */; };
@@ -42,6 +46,7 @@
 		87825B832AADC5E500DF5C57 /* PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B822AADC5E500DF5C57 /* PersonalInfoVC.swift */; };
 		87825B852AADC60B00DF5C57 /* AddressInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B842AADC60B00DF5C57 /* AddressInfoVC.swift */; };
 		87825B872AADC62F00DF5C57 /* SectorInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87825B862AADC62F00DF5C57 /* SectorInfoVC.swift */; };
+		87853C4C2AC1666600D4F5C6 /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87853C4B2AC1666600D4F5C6 /* Designable.swift */; };
 		87A624832AA48B75003BE2AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624822AA48B75003BE2AF /* AppDelegate.swift */; };
 		87A624852AA48B75003BE2AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624842AA48B75003BE2AF /* SceneDelegate.swift */; };
 		87A624872AA48B75003BE2AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624862AA48B75003BE2AF /* ViewController.swift */; };
@@ -52,6 +57,7 @@
 		87A624A42AA48B77003BE2AF /* MontakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624A32AA48B77003BE2AF /* MontakUITests.swift */; };
 		87A624A62AA48B77003BE2AF /* MontakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624A52AA48B77003BE2AF /* MontakUITestsLaunchTests.swift */; };
 		87A624B42AA4A696003BE2AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A624B32AA4A696003BE2AF /* Extensions.swift */; };
+		87BAE4392AC23DC300128EEB /* CustomizedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BAE4382AC23DC300128EEB /* CustomizedTabBar.swift */; };
 		87C635E92AB087E00077E728 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C635E82AB087E00077E728 /* OTPVC.swift */; };
 		87D630EB2AA9B29F00F5F19E /* OfferItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D630E92AA9B29F00F5F19E /* OfferItemCell.swift */; };
 		87D630EC2AA9B29F00F5F19E /* OfferItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D630EA2AA9B29F00F5F19E /* OfferItemCell.xib */; };
@@ -109,6 +115,13 @@
 		8704A9E92AAF59DD0041C088 /* EmployeeLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLoginVC.swift; sourceTree = "<group>"; };
 		871EA5802AA6278B00E232F8 /* customeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customeTabBar.swift; sourceTree = "<group>"; };
 		873845E92AAF361A0050DCD7 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		873F771C2AC06D1B008FF652 /* CustomeTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabBarVC.swift; sourceTree = "<group>"; };
+		873F771E2AC06FC8008FF652 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
+		873F77202AC07D5C008FF652 /* ChangeLang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLang.swift; sourceTree = "<group>"; };
+		873F77222AC0B4E2008FF652 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		873F77232AC0B4E2008FF652 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		873F77282AC0B538008FF652 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		873F772A2AC0B53A008FF652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		875D28012AA874C600824553 /* NewAddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddressCell.swift; sourceTree = "<group>"; };
 		875D28022AA874C600824553 /* NewAddressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewAddressCell.xib; sourceTree = "<group>"; };
 		875D28052AA88A6000824553 /* AboutUsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsCell.swift; sourceTree = "<group>"; };
@@ -132,6 +145,7 @@
 		87825B822AADC5E500DF5C57 /* PersonalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoVC.swift; sourceTree = "<group>"; };
 		87825B842AADC60B00DF5C57 /* AddressInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressInfoVC.swift; sourceTree = "<group>"; };
 		87825B862AADC62F00DF5C57 /* SectorInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorInfoVC.swift; sourceTree = "<group>"; };
+		87853C4B2AC1666600D4F5C6 /* Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
 		87A6247F2AA48B75003BE2AF /* Montak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Montak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A624822AA48B75003BE2AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87A624842AA48B75003BE2AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +160,7 @@
 		87A624A32AA48B77003BE2AF /* MontakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontakUITests.swift; sourceTree = "<group>"; };
 		87A624A52AA48B77003BE2AF /* MontakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontakUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		87A624B32AA4A696003BE2AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		87BAE4382AC23DC300128EEB /* CustomizedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedTabBar.swift; sourceTree = "<group>"; };
 		87C635E82AB087E00077E728 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
 		87D630E92AA9B29F00F5F19E /* OfferItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferItemCell.swift; sourceTree = "<group>"; };
 		87D630EA2AA9B29F00F5F19E /* OfferItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferItemCell.xib; sourceTree = "<group>"; };
@@ -205,6 +220,14 @@
 				55A61FBBA8362A6931F4FAAC /* Pods_MontakTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		873F77242AC0B4FE008FF652 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				873F77292AC0B538008FF652 /* Localizable.strings */,
+			);
+			path = Localizable;
 			sourceTree = "<group>";
 		};
 		87A624762AA48B75003BE2AF = {
@@ -268,6 +291,9 @@
 			children = (
 				87A624B32AA4A696003BE2AF /* Extensions.swift */,
 				871EA5802AA6278B00E232F8 /* customeTabBar.swift */,
+				873F771C2AC06D1B008FF652 /* CustomeTabBarVC.swift */,
+				87853C4B2AC1666600D4F5C6 /* Designable.swift */,
+				87BAE4382AC23DC300128EEB /* CustomizedTabBar.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -306,6 +332,7 @@
 		87E934982AA9F9B400BCBEC5 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				873F77242AC0B4FE008FF652 /* Localizable */,
 				87E934992AA9F9DE00BCBEC5 /* ChangeLanguageVC.swift */,
 				87E9349B2AA9FE0D00BCBEC5 /* MontakBriefVC.swift */,
 				87825B7A2AADA40500DF5C57 /* HomeVC.swift */,
@@ -333,6 +360,8 @@
 				8704A9E72AAF59530041C088 /* OrderRateVC.swift */,
 				8704A9E92AAF59DD0041C088 /* EmployeeLoginVC.swift */,
 				87C635E82AB087E00077E728 /* OTPVC.swift */,
+				873F771E2AC06FC8008FF652 /* OrdersVC.swift */,
+				873F77202AC07D5C008FF652 /* ChangeLang.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -441,6 +470,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 87A624762AA48B75003BE2AF;
 			productRefGroup = 87A624802AA48B75003BE2AF /* Products */;
@@ -472,6 +502,7 @@
 				875D28042AA874C600824553 /* NewAddressCell.xib in Resources */,
 				87DEB47B2AA72E3A00B54457 /* secondHomePageCell.xib in Resources */,
 				87D630F02AA9B4CB00F5F19E /* CartItemCell.xib in Resources */,
+				873F77272AC0B538008FF652 /* Localizable.strings in Resources */,
 				87DEB4832AA72EBD00B54457 /* thirdHomePageCell.xib in Resources */,
 				87E934A02AA9FE5A00BCBEC5 /* MontakBriefCell.xib in Resources */,
 			);
@@ -616,6 +647,7 @@
 				87DEB4822AA72EBD00B54457 /* thirdHomePageCell.swift in Sources */,
 				87E9349F2AA9FE5A00BCBEC5 /* MontakBriefCell.swift in Sources */,
 				87C635E92AB087E00077E728 /* OTPVC.swift in Sources */,
+				87BAE4392AC23DC300128EEB /* CustomizedTabBar.swift in Sources */,
 				87751D912AADDF8C00BDB347 /* SearchCategoryVC.swift in Sources */,
 				8704A9E42AAF57D90041C088 /* SearchItemsVC.swift in Sources */,
 				8704A9E62AAF58C90041C088 /* OrderTrackingVC.swift in Sources */,
@@ -624,21 +656,25 @@
 				87825B7F2AADC37F00DF5C57 /* MyProfileVC.swift in Sources */,
 				87D630F72AA9CEFB00F5F19E /* NotificationCell.swift in Sources */,
 				87751D892AADD64C00BDB347 /* AddNewAddress.swift in Sources */,
+				873F77212AC07D5C008FF652 /* ChangeLang.swift in Sources */,
 				87E9349C2AA9FE0D00BCBEC5 /* MontakBriefVC.swift in Sources */,
 				87D630EB2AA9B29F00F5F19E /* OfferItemCell.swift in Sources */,
 				87751D8D2AADDDDB00BDB347 /* CallCenterVC.swift in Sources */,
 				87751D932AADE02900BDB347 /* AllCategoriesVC.swift in Sources */,
 				8704A9EA2AAF59DD0041C088 /* EmployeeLoginVC.swift in Sources */,
 				873845EA2AAF361A0050DCD7 /* CartVC.swift in Sources */,
+				873F771D2AC06D1B008FF652 /* CustomeTabBarVC.swift in Sources */,
 				8704A9DE2AAF4A930041C088 /* CurrentOrdersVC.swift in Sources */,
 				87825B852AADC60B00DF5C57 /* AddressInfoVC.swift in Sources */,
 				87751D952AADF39900BDB347 /* ItemDetailsVC.swift in Sources */,
+				873F771F2AC06FC8008FF652 /* OrdersVC.swift in Sources */,
 				8704A9DC2AAF41D80041C088 /* PaymmentTrackingVC.swift in Sources */,
 				875D28032AA874C600824553 /* NewAddressCell.swift in Sources */,
 				87DEB47F2AA72E9100B54457 /* secondHomePageCell.swift in Sources */,
 				875D280F2AA8AABB00824553 /* ItemsCell.swift in Sources */,
 				875D28072AA88A6000824553 /* AboutUsCell.swift in Sources */,
 				8704A9E82AAF59530041C088 /* OrderRateVC.swift in Sources */,
+				87853C4C2AC1666600D4F5C6 /* Designable.swift in Sources */,
 				87751D872AADC9BE00BDB347 /* AboutUsVC.swift in Sources */,
 				87825B7D2AADBC2800DF5C57 /* MenuVC.swift in Sources */,
 				87E9349A2AA9F9DE00BCBEC5 /* ChangeLanguageVC.swift in Sources */,
@@ -681,10 +717,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		873F77292AC0B538008FF652 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873F77282AC0B538008FF652 /* ar */,
+				873F772A2AC0B53A008FF652 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		87A624882AA48B75003BE2AF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				87A624892AA48B75003BE2AF /* Base */,
+				873F77222AC0B4E2008FF652 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -693,6 +739,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				87A6248E2AA48B77003BE2AF /* Base */,
+				873F77232AC0B4E2008FF652 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -704,6 +751,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -764,6 +812,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

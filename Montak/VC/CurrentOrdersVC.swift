@@ -13,9 +13,27 @@ class CurrentOrdersVC: UIViewController , UITableViewDelegate , UITableViewDataS
     @IBOutlet weak var activeBtn: UIButton!
     @IBOutlet weak var tableView: UITableView!
     
-
+    @IBOutlet weak var mainTitle: DesignableLabel!
+    
+    var flag : Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if flag == 1 {
+            mainTitle.text = "Previous Orders".localized()
+        }
+        
+        else if flag == 2 {
+            mainTitle.text = "Current Orders".localized()
+
+            
+        }
+                    
+        else if flag == 2 {
+            mainTitle.text = "Cancelled Orders".localized()
+
+        }
         
         let nib = UINib(nibName: "CurrentOrdersCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "CurrentOrdersCell")

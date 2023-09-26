@@ -24,6 +24,14 @@ class CartVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
 
     }
     
+    
+    @IBAction func backPressed(_ sender: Any) {
+        
+        self.navigationController?.popViewController(animated: true)
+
+    }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 7
     }

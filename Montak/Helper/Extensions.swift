@@ -10,6 +10,21 @@ extension UIViewController {
     
     
     
+    @IBAction func go_to_cart(_ sender: Any) {
+        
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "CartVC") as! CartVC
+//        self.modalPresentationStyle = .fullScreen
+//        self.present(vc, animated: true)
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+
+        
+        
+    }
+    
+    
     @IBAction func setupMenu(_ sender: Any) {self.side_menu()}
 
     
@@ -26,14 +41,22 @@ extension UIViewController {
         if MOLHLanguage.isRTLLanguage() {
 
             
-            SideMenuManager.default.leftMenuNavigationController = MenuNavigationController
-            
-            SideMenuManager.default.leftMenuNavigationController?.menuWidth = 280
-        } else {
             SideMenuManager.default.rightMenuNavigationController = MenuNavigationController
+            
             SideMenuManager.default.rightMenuNavigationController?.menuWidth = 280
+        } else {
+            SideMenuManager.default.leftMenuNavigationController = MenuNavigationController
+            SideMenuManager.default.leftMenuNavigationController?.menuWidth = 280
 
         }
+        
+        
+        
+       
+
+        
+        
+        
         
 //        SideMenuManager.default.addPanGestureToPresent(toView: navigationController!.navigationBar)
 //        SideMenuManager.default.addScreenEdgePanGesturesToPresent(toView: navigationController!.navigationBar)
@@ -41,20 +64,25 @@ extension UIViewController {
     
     
     
-    @objc func side_menu() {
+    func side_menu() {
         
         self.setupSideMenu()
         if MOLHLanguage.isRTLLanguage() {
-            present(SideMenuManager.default.leftMenuNavigationController!, animated: true, completion: nil)
-        } else {
             present(SideMenuManager.default.rightMenuNavigationController!, animated: true, completion: nil)
+        } else {
+            present(SideMenuManager.default.leftMenuNavigationController!, animated: true, completion: nil)
         }
     }
     
     @objc
     func back_btn() {
-        self.navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
+    
+    
+    
+    
+    
     
 //    func setupSideMenu() {
 //        

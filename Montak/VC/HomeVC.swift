@@ -7,9 +7,12 @@
 
 import UIKit
 
-class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewDataSource  , UICollectionViewDelegateFlowLayout {
+
+class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewDataSource  ,UIScrollViewDelegate, UICollectionViewDelegateFlowLayout {
     
     
+    @IBOutlet weak var sectionsCollectionViewHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var backgroundScrolll: UIScrollView!
     @IBOutlet weak var collectionViewA: UICollectionView!
     @IBOutlet weak var collectionViewB: UICollectionView!
     @IBOutlet weak var collectionViewC: UICollectionView!
@@ -43,7 +46,7 @@ class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewData
         collectionViewC.delegate = self
         collectionViewC.dataSource = self
         pageControl.numberOfPages = 3
-
+        reloadSectionsCollection()
         
     }
     
@@ -53,7 +56,7 @@ class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewData
         
         if collectionView == collectionViewA {return 3}
         else if collectionView == collectionViewB {return 3}
-        else {return 10}
+        else {return 4}
         
         
     }
@@ -111,7 +114,7 @@ class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewData
        
         
         else  {
-            let h = collectionView.bounds.height / 1.2
+            let h = 134.0
             let w = collectionView.bounds.width / 3
 
             return CGSize(width: w, height: h)
@@ -125,7 +128,10 @@ class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewData
            pageControl.currentPage = currentPage
     }
 
-    
-    
+    func reloadSectionsCollection() {
+        let height = collectionViewC.collectionViewLayout.collectionViewContentSize.height
+        sectionsCollectionViewHeightConstraint.constant = height
+        self.view.setNeedsLayout()
+    }
     
 }

@@ -1,16 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Icon metro-mobile.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Group_709-removebg-preview.png",
+      "filename" : "Icon metro-mobile@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Group_709_3x-removebg-preview.png",
+      "filename" : "Icon metro-mobile@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
