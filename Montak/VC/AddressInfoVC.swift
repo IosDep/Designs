@@ -5,13 +5,15 @@
 //  Created by Blue Ray on 10/09/2023.
 
 import UIKit
+import MOLH
 
 class AddressInfoVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
     
     
-    
 
     @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var backBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +23,10 @@ class AddressInfoVC: UIViewController , UITableViewDelegate , UITableViewDataSou
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        let image = MOLHLanguage.isRTLLanguage() ? UIImage(named: "backAr") : UIImage(named: "back1")
+        
+        backBtn.setImage(image, for: .normal)
         
         
 

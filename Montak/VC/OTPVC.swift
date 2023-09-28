@@ -15,6 +15,8 @@ class OTPVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configureOTPView()
+        
+        
 
     }
     

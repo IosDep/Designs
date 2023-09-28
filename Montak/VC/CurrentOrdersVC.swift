@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 class CurrentOrdersVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
     
@@ -15,10 +16,16 @@ class CurrentOrdersVC: UIViewController , UITableViewDelegate , UITableViewDataS
     
     @IBOutlet weak var mainTitle: DesignableLabel!
     
+    @IBOutlet weak var backBtn: UIButton!
+    
     var flag : Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let image = MOLHLanguage.isRTLLanguage() ? UIImage(named: "backAr") : UIImage(named: "back1")
+        
+        backBtn.setImage(image, for: .normal)
         
         if flag == 1 {
             mainTitle.text = "Previous Orders".localized()

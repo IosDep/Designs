@@ -9,6 +9,8 @@ import UIKit
 
 class ItemsCell: UITableViewCell {
 
+    @IBOutlet weak var counterView: UIView!
+    @IBOutlet weak var addTocartView: UIView!
     @IBOutlet weak var deleteBtn: UIButton!
     @IBOutlet weak var heartBtn: UIButton!
     @IBOutlet weak var mainView: UIView!
@@ -21,8 +23,9 @@ class ItemsCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+        
+        
 
-        // Configure the view for the selected state
     }
     
 }

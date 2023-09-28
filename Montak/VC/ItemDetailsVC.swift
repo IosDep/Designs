@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MOLH
 
 class ItemDetailsVC: UIViewController {
 
@@ -16,9 +17,15 @@ class ItemDetailsVC: UIViewController {
     @IBOutlet weak var itemImage: UIImageView!
     
     
+    @IBOutlet weak var backBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         secondryView.layer.cornerRadius = 20
+        
+        let image = MOLHLanguage.isRTLLanguage() ? UIImage(named: "backAr") : UIImage(named: "back1")
+        
+        backBtn.setImage(image, for: .normal)
 
     }
     

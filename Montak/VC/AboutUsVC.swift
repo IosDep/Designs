@@ -6,10 +6,11 @@
 //
 
 import UIKit
+import MOLH
 
 class AboutUsVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
     
-    
+    @IBOutlet weak var backBtn: UIButton!
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -30,7 +31,7 @@ class AboutUsVC: UIViewController , UITableViewDelegate , UITableViewDataSource 
         
         logos = [ UIImage(named: "Vision") , UIImage(named: "Message") ,  UIImage(named: "Values") ]
         
-        titles = ["Vision" , "Message" , "Values"]
+        titles = ["Vision".localized() , "Message".localized() , "Values".localized()]
         
         bodyTexts =  [
             
@@ -43,7 +44,9 @@ class AboutUsVC: UIViewController , UITableViewDelegate , UITableViewDataSource 
         tableView.delegate = self
         tableView.dataSource = self
         
+        let image = MOLHLanguage.isRTLLanguage() ? UIImage(named: "backAr") : UIImage(named: "back1")
         
+        backBtn.setImage(image, for: .normal)
         
 
     }

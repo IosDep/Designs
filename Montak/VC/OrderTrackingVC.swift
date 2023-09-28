@@ -7,14 +7,21 @@
 
 import UIKit
 import StepIndicator
+import MOLH
 
 class OrderTrackingVC: UIViewController {
 
     @IBOutlet weak var stepIndicatorView: StepIndicatorView!
     
+    @IBOutlet weak var backBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configureIndicator()
+        
+        let image = MOLHLanguage.isRTLLanguage() ? UIImage(named: "backAr") : UIImage(named: "back1")
+        
+        backBtn.setImage(image, for: .normal)
 
     }
     

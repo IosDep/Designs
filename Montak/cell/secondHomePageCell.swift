@@ -13,7 +13,7 @@ class secondHomePageCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.mainView.layer.cornerRadius = 10
+        self.mainView.layer.cornerRadius = 15
     }
 
 }

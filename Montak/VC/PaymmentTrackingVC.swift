@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import MOLH
 
 class PaymmentTrackingVC: UIViewController {
     
     @IBOutlet weak var onlinePaymentCheck: UIImageView!
     @IBOutlet weak var visaCheck: UIImageView!
     @IBOutlet weak var deliveryCheck: UIImageView!
+    
+    @IBOutlet weak var backBtn: UIButton!
     
     var paymentFlag: Int = 0
     
@@ -23,6 +26,10 @@ class PaymmentTrackingVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let image = MOLHLanguage.isRTLLanguage() ? UIImage(named: "backAr") : UIImage(named: "back1")
+        
+        backBtn.setImage(image, for: .normal)
 
         
     }

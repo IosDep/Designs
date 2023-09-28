@@ -63,7 +63,6 @@ class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewData
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        
         if collectionView == collectionViewA {
             
             let cell = self.collectionViewA.dequeueReusableCell(withReuseIdentifier: "firstHomePageCell", for: indexPath) as? firstHomePageCell
@@ -85,9 +84,7 @@ class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewData
             
             return cell!
         }
-        
-        
-        
+      
         
     }
     
@@ -99,10 +96,8 @@ class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewData
             let w = collectionView.bounds.width
 
             return CGSize(width: w, height: h)
-
             
         }
-
         
         else if collectionView == collectionViewB {
             let h = collectionView.bounds.height
@@ -111,14 +106,12 @@ class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewData
             return CGSize(width: w, height: h)
 
         }
-       
         
-        else  {
+        else {
             let h = 134.0
             let w = collectionView.bounds.width / 3
 
             return CGSize(width: w, height: h)
-
         }
     }
     

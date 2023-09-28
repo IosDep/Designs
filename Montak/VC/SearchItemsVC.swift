@@ -32,10 +32,14 @@ class SearchItemsVC: UIViewController , UITableViewDataSource , UITableViewDeleg
         
         var cell = self.tableView.dequeueReusableCell(withIdentifier: "ItemsCell", for: indexPath) as? ItemsCell
         
+        
         return cell!
         
     }
     
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 200
+    }
     
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

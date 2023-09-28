@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import MOLH
 
 class CartVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var backBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,10 @@ class CartVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        let image = MOLHLanguage.isRTLLanguage() ? UIImage(named: "backAr") : UIImage(named: "back1")
+        
+        backBtn.setImage(image, for: .normal)
 
 
     }
@@ -50,5 +56,18 @@ class CartVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
     }
 
    
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+
+        let vc = storyBoard.instantiateViewController(withIdentifier: "ItemDetailsVC") as! ItemDetailsVC
+        
+        self.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true)
+        
+    }
 
 }

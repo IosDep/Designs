@@ -24,6 +24,8 @@ class AllCategoriesVC: UIViewController  , UICollectionViewDelegate , UICollecti
         collectionView.register(UINib(nibName: "thirdHomePageCell", bundle: nil), forCellWithReuseIdentifier: "thirdHomePageCell")
         
         
+        
+        
         collectionView.delegate = self
         collectionView.dataSource = self
         
