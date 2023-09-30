@@ -120,6 +120,33 @@ class HomeVC: UIViewController , UICollectionViewDelegate , UICollectionViewData
            let currentPage = Int((scrollView.contentOffset.x + pageWidth / 2) / pageWidth)
            pageControl.currentPage = currentPage
     }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        
+        if collectionView == collectionViewB {
+            
+            let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            let vc = storyBoard.instantiateViewController(withIdentifier: "OffersVC") as! OffersVC
+            
+            self.modalPresentationStyle = .overFullScreen
+            self.present(vc, animated: true)
+            
+        }
+        
+         else  if collectionView == collectionViewC {
+             
+             let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+             let vc = storyBoard.instantiateViewController(withIdentifier: "SearchCategoryVC") as! SearchCategoryVC
+             vc.flag = 1
+             self.modalPresentationStyle = .overFullScreen
+             self.present(vc, animated: true)
+             
+         }
+    }
+    
+    
 
     func reloadSectionsCollection() {
         let height = collectionViewC.collectionViewLayout.collectionViewContentSize.height

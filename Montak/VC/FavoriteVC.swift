@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FavoriteVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
+class FavoriteVC: UIViewController , UITableViewDelegate , UITableViewDataSource , DeleteDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -37,6 +37,8 @@ class FavoriteVC: UIViewController , UITableViewDelegate , UITableViewDataSource
         var cell = self.tableView.dequeueReusableCell(withIdentifier: "ItemsCell", for: indexPath) as? ItemsCell
         cell?.heartBtn.setImage(UIImage(named: "favorite2"), for: .normal)
         cell?.deleteBtn.isHidden = false
+        cell?.counterView.isHidden = true
+        cell?.addTocartView.isHidden = false
         return cell!
         
     }
@@ -103,6 +105,32 @@ class FavoriteVC: UIViewController , UITableViewDelegate , UITableViewDataSource
         }
     }
     
+    
+    @IBAction func deleteAllPressed(_ sender: Any) {
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "PopUpDeleteVC") as! PopUpDeleteVC
+        vc.deleteDelegate = self
+        self.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true)
+        
+        
+    }
+    func deletePressed(flag: Int) {
+        if flag == 1 {
+            
+        // remove all
+            
+            self.dismiss(animated: true)
+
+        }
+        
+        else {
+            self.dismiss(animated: true)
+            
+            
+        }
+    }
 
 
 }

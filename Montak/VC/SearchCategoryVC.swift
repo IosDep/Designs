@@ -6,25 +6,46 @@
 //
 
 import UIKit
+import MOLH
 
-class SearchCategoryVC: UIViewController, UICollectionViewDelegate , UICollectionViewDataSource , UITableViewDelegate , UITableViewDataSource , UIScrollViewDelegate{
-
+class SearchCategoryVC: UIViewController, UICollectionViewDelegate , UICollectionViewDataSource , UITableViewDelegate , UITableViewDataSource , UIScrollViewDelegate {
+    
+    
+    @IBOutlet weak var backView: UIView!
+    @IBOutlet weak var mainView: UIView!
+    @IBOutlet weak var backBtn: UIButton!
+    
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var heightConstraint: NSLayoutConstraint!
     @IBOutlet weak var headerView: UIView!
+    
     var flag : Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if flag == 0 {
+            mainView.isHidden = false
+            backView.isHidden = true
+        }
+        
+        
+        else {
+            mainView.isHidden = true
+            backView.isHidden = false
+        }
+        
 //
 //        tableView.tableHeaderView = UIView()
 //
 //        let headerHeight: CGFloat = 200
 //        tableView.contentInset = UIEdgeInsets(top: headerHeight, left: 0, bottom: 0, right: 0)
 
+        let image = MOLHLanguage.isRTLLanguage() ? UIImage(named: "backAr") : UIImage(named: "back1")
         
+        backBtn.setImage(image, for: .normal)
         
         
         collectionView.register(UINib(nibName: "SearchCategoriesCell", bundle: nil), forCellWithReuseIdentifier: "SearchCategoriesCell")
@@ -69,7 +90,20 @@ class SearchCategoryVC: UIViewController, UICollectionViewDelegate , UICollectio
 
     }
     
-    
+    @IBAction func orderingPressed(_ sender: UIButton) {
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "CartVC") as! CartVC
+        
+        
+        self.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true)
+        
+        
+//        self.navigationController?.pushViewController(vc, animated: false)
+        
+    }
+   
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -108,18 +142,21 @@ class SearchCategoryVC: UIViewController, UICollectionViewDelegate , UICollectio
     }
     
     
-    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        
-        let footerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: "TotalFooter") as! TotalFooter
-        
-        return footerView
-        
-    }
+//    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+//
+//        let footerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: "TotalFooter") as! TotalFooter
+//        return footerView
+//
+//    }
+//
+//
+//    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+//        return 100
+//    }
+//
     
     
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 100
-    }
+    
     
     
 //    func scrollViewDidScroll(_ scrollView: UIScrollView) {
@@ -183,11 +220,14 @@ class SearchCategoryVC: UIViewController, UICollectionViewDelegate , UICollectio
             self?.isAnimationInProgress = false
         }
     }
+    
+    
+    
+    
 }
     
     
     
-
 
 
 

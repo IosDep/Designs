@@ -8,6 +8,14 @@
 import UIKit
 
 class TotalFooter: UITableViewHeaderFooterView {
-
-
+    
+    
+    
+    
 }
+
+
+
+
+
+

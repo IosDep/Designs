@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NotificationVC: UIViewController  , UITableViewDelegate , UITableViewDataSource {
+class NotificationVC: UIViewController  , UITableViewDelegate , UITableViewDataSource  , DeleteDelegate{
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -43,6 +43,32 @@ class NotificationVC: UIViewController  , UITableViewDelegate , UITableViewDataS
 
 
 
+    @IBAction func deleteAllPressed(_ sender: Any) {
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "PopUpDeleteVC") as! PopUpDeleteVC
+        vc.deleteDelegate = self
+        self.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true)
+        
+        
+    }
+    
+    func deletePressed(flag: Int) {
+        if flag == 1 {
+            
+        // remove all
+            
+            self.dismiss(animated: true)
+
+        }
+        
+        else {
+            self.dismiss(animated: true)
+            
+            
+        }
+    }
    
 
 }

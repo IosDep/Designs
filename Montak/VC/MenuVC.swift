@@ -61,6 +61,8 @@ class MenuVC: UIViewController {
              
              let vc = storyBoard.instantiateViewController(withIdentifier: "SearchCategoryVC") as! SearchCategoryVC
              
+             vc.flag = 0
+             
              self.navigationController?.pushViewController(vc, animated: false)
        
              
@@ -139,7 +141,7 @@ class MenuVC: UIViewController {
         
         else if sender.tag == Actions.logout.rawValue {
             
-            let vc = storyBoard.instantiateViewController(withIdentifier: "EmployeeLoginVC") as! EmployeeLoginVC
+            let vc = storyBoard.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
             
             self.modalPresentationStyle = .overFullScreen
             self.present(vc, animated: true)

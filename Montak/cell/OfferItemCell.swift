@@ -9,8 +9,13 @@ import UIKit
 
 class OfferItemCell: UITableViewCell {
 
+    @IBOutlet weak var expiryDate: UILabel!
+    @IBOutlet weak var priceBefore: UILabel!
+    @IBOutlet weak var priceAfter: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         // Initialization code
     }
 

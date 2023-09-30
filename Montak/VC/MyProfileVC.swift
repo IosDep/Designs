@@ -38,11 +38,17 @@ class MyProfileVC: UIViewController {
              vc.modalPresentationStyle = .fullScreen
              self.present(vc, animated: true)
     }
-//
-//    @IBAction func sectorPressed(_ sender: Any) {
-//
-//
-//    }
+
+    @IBAction func sectorPressed(_ sender: Any) {
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+             let vc = storyBoard.instantiateViewController(withIdentifier: "SectorInfoVC") as! SectorInfoVC
+        vc.flag = 1
+             vc.modalPresentationStyle = .fullScreen
+             self.present(vc, animated: true)
+
+
+    }
     
     
     @IBAction func addressPressed(_ sender: Any) {

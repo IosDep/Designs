@@ -7,15 +7,22 @@
 
 import UIKit
 import  DPOTPView
+import MOLH
 
 class OTPVC: UIViewController {
 
     @IBOutlet weak var otpTextField: DPOTPView!
     
+    @IBOutlet weak var backBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configureOTPView()
         
+        
+        let image = MOLHLanguage.isRTLLanguage() ? UIImage(named: "backAr") : UIImage(named: "back1")
+        
+        backBtn.setImage(image, for: .normal)
         
 
     }

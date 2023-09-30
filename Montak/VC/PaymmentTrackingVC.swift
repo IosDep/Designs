@@ -35,6 +35,16 @@ class PaymmentTrackingVC: UIViewController {
     }
     
     
+    @IBAction func addToCartPressed(_ sender: Any) {
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "SearchCategoryVC") as! SearchCategoryVC
+        self.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
+    }
+    
+    
+    
     // payment flag 1
 
     @IBAction func cashPressed(_ sender: Any) {

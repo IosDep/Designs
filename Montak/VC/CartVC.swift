@@ -8,14 +8,23 @@
 import UIKit
 import MOLH
 
-class CartVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
-
-    @IBOutlet weak var tableView: UITableView!
+class CartVC: UIViewController , UITableViewDelegate , UITableViewDataSource , DeleteDelegate{
     
+    
+   
+
+    @IBOutlet weak var maintitle: UILabel!
+    
+    
+    @IBOutlet weak var cartTitle: DesignableLabel!
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var backBtn: UIButton!
+    
+    var flag : Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         let nib = UINib(nibName: "CartItemCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "CartItemCell")
@@ -69,5 +78,68 @@ class CartVC: UIViewController , UITableViewDelegate , UITableViewDataSource {
         self.present(vc, animated: true)
         
     }
+    
+    
+    @IBAction func paymentPressed(_ sender: Any) {
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
 
+        let vc = storyBoard.instantiateViewController(withIdentifier: "PaymmentTrackingVC") as! PaymmentTrackingVC
+        
+        self.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true)
+        
+        
+//        self.navigationController?.pushViewController(vc, animated: false)
+
+    }
+    
+
+    
+    @IBAction func cartPessed(_ sender: Any) {
+        
+        self.dismiss(animated: true)
+//        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+//
+//        let vc = storyBoard.instantiateViewController(withIdentifier: "CartVC") as! CartVC
+//
+////        self.navigationController?.pushViewController(vc, animated: false)
+//
+//        self.modalPresentationStyle = .overFullScreen
+//        self.present(vc, animated: true)
+
+    }
+    
+    
+    
+    
+    @IBAction func deleteAllPressed(_ sender: Any) {
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "PopUpDeleteVC") as! PopUpDeleteVC
+        vc.deleteDelegate = self
+        self.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true)
+        
+        
+    }
+    
+    
+    func deletePressed(flag: Int) {
+        if flag == 1 {
+            
+        // remove all
+            
+            self.dismiss(animated: true)
+
+        }
+        
+        else {
+            self.dismiss(animated: true)
+            
+            
+        }
+    }
+    
+    
 }

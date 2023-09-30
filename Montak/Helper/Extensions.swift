@@ -289,6 +289,23 @@ extension UIView {
     }
     
     
+    @IBInspectable var topRounded: Bool {
+        get {
+            return layer.maskedCorners == [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        }
+        set {
+            if newValue {
+                layer.cornerRadius = 16
+                layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+            } else {
+                layer.cornerRadius = 0
+                layer.maskedCorners = []
+            }
+        }
+    }
+
+    
+    
     
 }
 
